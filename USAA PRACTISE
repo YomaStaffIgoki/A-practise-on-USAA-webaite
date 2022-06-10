@@ -1,0 +1,161 @@
+HTML CODE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./USAA.css">
+</head>
+<body>
+    <div class="main">
+        <!--header section-->
+    <div class="header">
+<a href="#"> <img class="usaalogo" src="./Capture.PNG"></a>
+
+    <a href="#" class="firstlink"><p class="arrays">Insurance</p></a>
+    <a href="#" class="firstlink"><p class="arrays">Banking</p></a>
+    <a href="#" class="firstlink"><p class="arrays">Investment</p></a>
+    <a href="#" class="firstlink"><p class="arrays">Retirement</p></a>
+    <a href="#" class="firstlink"><p class="arrays">Advice</p></a>
+    <a href="#" class="firstlink"><p class="arrays">Membership</p></a>
+    <a href="#" class="firstlink"><p class="arrays"> &#128269 Search</p></a>
+    <a href="#" class="firstlink"><p class="arrays"><img src="./chat.PNG" class="chaticon"> Chat</p></a>
+    <a href="#" class="firstlink"><p class="arrays"><img src="./log on.PNG" class="chaticon">Log On</p></a>
+
+
+    </div>
+    <!--First Body-->
+    <div class="secondbody">
+<div class="nav"></div>
+<h2 class="customized">JOIN USAA</h2>
+
+<h3 class="proudly"> We proudly serve military <br> members and their families. </h3>
+<p class="since"> Since 1922, we have stood by our members. We are your <br> organization for insurance, banking, investments and <br> retirement.</p>
+
+<button class="firstBtn">Join Now</button>
+
+    </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CSS CODE
+
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.main {
+    border: 1px solid black;
+width: 100vw;
+height: 100vh;
+background: #12395b;
+
+
+}
+/* header section */
+.usaalogo{
+    width: 150px;
+    height: auto;
+    vertical-align: -webkit-baseline-middle;
+    }
+
+.arrays {
+    font-family: Gotham Narrow,Arial,sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    border: 0.1px solid white;
+    border-left: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-bottom: 150px;
+}
+.chaticon {
+    width: 20px;
+    height: auto;
+    background: transparent;
+}
+.firstlink {
+    text-decoration: none;
+}
+.firstlink:hover {
+cursor: pointer;
+background-color: #0e2e49;
+font-size: x-large;
+}  
+
+/* first body */
+.secondbody {
+    border: 1px solid transparent;
+    margin-left: 80px;
+}
+.nav {
+    border: 1px solid #fac705;
+    width: 120px;
+    height: 5px;
+    background: #fac705;
+    margin-bottom: 10px;
+}
+.customized {
+    color: white;
+    font-size: 22.7px;
+    font-family: Gotham Narrow,Arial,sans-serif;
+    margin-bottom: 40px;
+}
+.proudly {
+    color: white;
+    font-weight: 700;
+    font-family: Gotham Narrow,Arial,sans-serif;
+    font-size: 2.565rem;
+}
+
+.since {
+    color: white;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+
+.firstBtn {
+    background: #fac705;
+    color: #0e2e49;
+    width: 150px;
+    height: 60px;
+    font-size: 17px;
+    border-color: #fac705;
+    box-shadow: 0.1px 0.1px #fac705;
+font-family: Gotham Narrow,Arial,sans-serif;
+font-weight: bold;
+}
+
+.firstBtn:hover {
+    background: burlywood;
+    cursor: pointer;
+}
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
